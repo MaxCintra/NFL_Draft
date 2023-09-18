@@ -28,6 +28,55 @@ For context on drills see <a href = "https://www.si.com/nfl/2020/02/24/nfl-combi
 
 9: Follow link in terminal, and enter desired test data
 
-### Presentation Overview
+## Key
+### Position
+'QB': 1
+
+'RB': 2
+
+'T': 3
+
+'WR': 4
+
+'DB': 5
+
+'LB': 6
+
+'DT': 7
+
+'DE': 8
+
+'G': 9
+
+'TE': 10
+
+'C': 11
+
+'P': 12
+
+'OL': 13
+
+'NT': 14
+
+'FB': 15
+
+'OLB': 16
+
+'CB': 17
+
+'S': 18
+
+'ILB': 19
+
+'LS': 20
+
+'DL': 21
+
+### College
+Due to amount of schools within this data frame, to find a schools associated number, run the code below.
+
+'Insert desired school here' = df[df['College/Univ'] == 'Insert desried school here']
+
+## Presentation Overview
 To find the results we found, view our <a href = "https://docs.google.com/presentation/d/1GtA_nVt5ErDfyAnrdmhtmVOjtg00gSBk4NyIhyiP4ck/edit?usp=sharing"> Google Slides </a>.
 
