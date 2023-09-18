@@ -7,7 +7,7 @@ Through using machine learning models and other analysis, we are attempting to c
 ## The Dataset
 All Data was pulled from <a href = "https://www.pro-football-reference.com/">Pro-Football Reference</a>.
 
-For context on drills see <a href = "https://ftw.usatoday.com/lists/nfl-combine-drills-three-cone-shuttle-explained](https://www.si.com/nfl/2020/02/24/nfl-combine-2020-drills-workouts-explained-on-field-applications"> Sports Illustrated </a>.
+For context on drills see <a href = "https://www.si.com/nfl/2020/02/24/nfl-combine-2020-drills-workouts-explained-on-field-applications"> Sports Illustrated </a>.
 
 ## Tutorial
 1: Clone Repository
