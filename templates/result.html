@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NFL Prospect Predictor - Results</title>
+    <!-- Add CSS links for Bootstrap or any custom styles -->
+    <!-- For example, you can include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        /* Define CSS classes for different prediction results */
+        .pro-bowl {
+            background-color: green;
+        }
+        .all-pro {
+            background-color: green;
+        }
+        .not-pro-bowl {
+            background-color: red;
+        }
+        .not-all-pro {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NFL Prospect Predictor - Results</h1>
+        
+        <div class="alert {{ 'pro-bowl' if prediction1 == 'Pro Bowl caliber' else 'not-pro-bowl' }}">
+            <h3>Probowl Prediction:</h3>
+            <p>{{ prediction1 }}</p>
+        </div>
+        
+        <div class="alert {{ 'all-pro' if prediction2 == 'All-Pro caliber' else 'not-all-pro' }}">
+            <h3>All-Pro Prediction:</h3>
+            <p>{{ prediction2 }}</p>
+        </div>
+
+        <!-- Add more sections to display additional predictions or information as needed -->
+
+        <a href="/" class="btn btn-primary">Back to Home</a>
+    </div>
+</body>
+</html>
